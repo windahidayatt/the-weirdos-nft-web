@@ -71,7 +71,7 @@ const ButtonContainer = styled.div`
 
 const About = () => {
   return (
-    <Section>
+    <Section id="about">
       <Container>
         <Box> <Carousel/> </Box>
         <Box> 
