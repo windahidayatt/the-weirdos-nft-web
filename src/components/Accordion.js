@@ -10,6 +10,10 @@ const Container = styled.section`
     flex-direction: column;
     border-bottom: 1px solid ${props => props.theme.carouselColor};
     margin: 3rem 0;
+
+    @media (max-width: 48em){
+        margin: 2rem 0;
+    }
 `
 
 const Title = styled.div`
@@ -38,6 +42,10 @@ const Indicator = styled.span`
     display: flex;
     justify-content: center;
     align-items: center;
+
+    @media (max-width: 48em){
+        font-size: ${props => props.theme.fontxl};
+    }
 
     svg{
         width: 1rem;
